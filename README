@@ -1,0 +1,46 @@
+CTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>CHECK BOX</title>
+<script language="javascript">
+function mostrar(){
+	var nom, dir, ap, am, edad, tel, pais;
+		nom=document.f1.t3.value;
+			dir=document.f1.t3.value;
+				ap=document.f1.t3.value;
+					am=document.f1.t3.value;
+						edad=document.f1.t3.value;
+							tel=document.f1.t3.value;
+								pais=document.f1.t3.value;
+									
+										
+											alert("El nombre es: "+nom);
+												alert("La direccion es: "+dir);
+													
+														if(document.f1.c1.checked){
+																nom=(prompt("Ingrese el nombre"));
+																		nom=document.f1.f3.value;
+																			}
+																				
+																					if(document.f1.c2.checked){
+																							alert("Sexo= Femenino");
+																								}
+																								}
+																								</script>
+																								</head>
+
+																								<body>
+																								<form name="f1" action="" method="post">
+																								Nombre<input type="text" name="t1" size="30" />
+																								Direecion<input type="text" name="t2" size="30" maxlength="50" />
+																								Sexo:
+																								Maculino<input type="checkbox" name="c1" />
+																								Femenino<input type="checkbox" name="c2" />
+																								<input type="button" value="Mostrar" onclick="mostrar()" />
+																								<input type="reset" value="Borrar" />
+																								</form>
+
+																								</body>
+																								</html>
+
